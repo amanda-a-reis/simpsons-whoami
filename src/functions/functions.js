@@ -24,6 +24,7 @@ export const calculateDistance = (personagens, combinacao) => {
 
     const personagem = opc2.map((el, index) => {
         if(el[0] !== -1 && el[1] !== -1) return index
+        return undefined
     }).filter(el => el !== undefined)
 
 
