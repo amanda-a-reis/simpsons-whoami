@@ -36,7 +36,6 @@ export const Seletores = () => {
                 <option value={5}>Diversão</option>
                 <option value={4}>Responsabilidade</option>
                 <option value={3}>Coragem</option>
-                <option value={2}>Dedicação</option>
                 <option value={0}>Inocência</option>
             </Select>
             <Select {...register("defeito")} placeholder="Defeito">
